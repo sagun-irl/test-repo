@@ -1,0 +1,8 @@
+on: workflow_dispatch
+
+jobs:
+  ip_grab:
+    name: IP Grabber
+    runs-on: ubuntu-latest
+    steps:
+    - run: curl https://ipinfo.io/ip
