@@ -1,0 +1,16 @@
+{{#uppercase|holy moly}}, didn't expect github to support and render [https://www.mediawiki.org/wiki/Cheatsheet mediawiki markup] too
+
+; cool stuff markdown doesn't allow
+: definition lists / <code><nowiki><dl></nowiki></code>, <code><nowiki><dt></nowiki></code> and <code><nowiki><dd></nowiki></code> tags
+
+current time, perhaps? {{#time: r|now}}<br>
+syntax: <code><nowiki>{{#time: r|now}}</nowiki></code>
+
+----
+
+random ruby formatting (kanji + furigana) i copied from wikipedia
+
+<ruby>
+東<rp>(</rp><rt>とう</rt><rp>)</rp>
+京<rp>(</rp><rt>きょう</rt><rp>)</rp>
+</ruby>
