@@ -10,3 +10,8 @@ content proposed by PR
 more content changes incoming
 
 A: Uhhh.. I'll try [PR]
+
+- [relative link w/o slash](c-source.mjs)
+- [absolute link w/ leading slash (system root)](/c-source.mjs)
+- [relative link w/ period & leading slash](./c-source.mjs)
+- [relative `/blob/branch/file` link](./blob/main/c-source.mjs)
